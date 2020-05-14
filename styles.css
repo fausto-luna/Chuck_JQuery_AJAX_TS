@@ -1,0 +1,25 @@
+#row1{ 
+    height: 70vh;
+    /* background-color: darkgoldenrod; */
+}
+#row2{
+    height: 30vh;
+    /* background-color: darkviolet; */
+    align-items: center;
+}
+h1{
+    margin: auto;
+}
+p{
+    height: 35vh;
+    font-size: 4rem;
+    align-self: center;
+}
+button{
+    align-self: center;
+    margin: auto;
+}
+.col-12{
+    background-color: deepskyblue;
+    align-items: center;
+}
