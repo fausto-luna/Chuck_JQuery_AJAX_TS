@@ -1,25 +1,64 @@
-#row1{ 
+/* body{
+    background-image: url('chucknorrisdrinkscoronavirus.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+} */
+
+img{
     height: 70vh;
+    margin-top: 5vh;
+}
+.circular--square {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+  }
+
+#row1{ 
+    height: 100vh;
+    width: 100vw;
     /* background-color: darkgoldenrod; */
-}
-#row2{
-    height: 30vh;
-    /* background-color: darkviolet; */
+    
+    /* align-items: center; */
     align-items: center;
+    
 }
-h1{
-    margin: auto;
+#divText{
+    height: fit-content;
+    width: fit-content;
+    /* justify-content: end; */
+    /* background-color: mediumseagreen; */
+   justify-content: space-around;
 }
 p{
-    height: 35vh;
-    font-size: 4rem;
-    align-self: center;
+    margin-top: 3vh;
+    margin-left: 2vw;
+    font-size: 4vw;
+     /* background-color: hotpink;  */
+     text-align:right;
+     line-height: normal;  
+     display: block;
+     justify-self: center;
+}
+#divImg{
+    height: 100vh;
+    width: 50vw !important;
+    /* background-color: red; */
+    align-content: center;
+}
+#divImg>.row{
+    /* align-content: center; */
+    justify-content: space-around;
+}
+h1{
+    font-size: 3vw;
+    margin-top: 1.5rem;
+    align-content: center;
 }
 button{
+    margin-top: 10vh;
     align-self: center;
-    margin: auto;
-}
-.col-12{
-    background-color: deepskyblue;
-    align-items: center;
 }
